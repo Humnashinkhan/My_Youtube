@@ -12,14 +12,14 @@ const Head = () => {
     <div className="flex col-span-1">
       <img
         onClick={() => toggleMenuHandler()}
-        className="h-12 cursor-pointer"
+        className="h-8 cursor-pointer"
         alt="menu"
         src="https://static.vecteezy.com/system/resources/previews/021/190/402/non_2x/hamburger-menu-filled-icon-in-transparent-background-basic-app-and-web-ui-bold-line-icon-eps10-free-vector.jpg"
         />
         <img
-         className="h-14 mx-2 w-24 pb-1"
+         className="h-8 mx-2"
          alt="youtube-logo"
-         src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/youtube-logo-icon.png"
+         src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/YouTube_Logo_2017.svg/2560px-YouTube_Logo_2017.svg.png"
          />
     </div>
      <div className="col-span-10 px-10">
@@ -27,10 +27,10 @@ const Head = () => {
         className="w-1/2 border border-gray-400 p-2 rounded-l-full"
        type="text"/>
        <button
-        className="border border-gray-400 p-2 rounded-r-full bg-gray-100"
-       >
-        Search
-        </button>
+        className="border border-gray-400 px-5 py-2 rounded-r-full bg-gray-100"
+       >           
+        🔍
+      </button>
      </div>
      <div className="col-span-1">
         <img
